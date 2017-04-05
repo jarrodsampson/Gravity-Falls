@@ -1,0 +1,213 @@
+.side-nav {
+    min-height: 1000px;
+}
+
+nav .button-collapse {
+    padding-left: 1em;
+}
+
+.side-nav img {
+    max-width: 100%;
+    margin-bottom: -1.9em;
+}
+
+.active {
+    background: rgba(0,0,0,0.2);
+}
+
+nav .sideNav a.active {
+    background: rgba(38,166,154, 0.9);
+    color:white;
+}
+
+nav .sideNav li a:hover {
+    background: rgba(38,166,154, 0.2);
+    color:black;
+}
+
+.spacer-small {
+    width: 100%;
+    height: 60px;
+}
+.spacer-x-small {
+    width: 100%;
+    height: 20px;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    padding: 0 0 0 11px;
+    display: none;
+    z-index: 9999;
+}
+.scroll-top i {
+    color: white;
+    font-size: 44pt;
+}
+
+/* headroom css */
+
+.slide {
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out
+}
+.slide--reset {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+}
+.slide--up {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%)
+}
+
+nav .brand-logo {
+    padding-left:.5em;
+}
+
+.brand-logo img {
+    width: 130px;
+    padding: 1px;
+}
+
+.topnav li a {
+    text-transform: uppercase;
+}
+
+.videoMain {
+    width: 100%;
+    max-height: 500px;
+    background: #fff;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -4;
+}
+
+.parallax-container h2{
+
+    background: rgba(0,0,0,0.6);
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: -0.5em;
+    left: 0;
+    padding: 0.5em 0 0.5em 1em;
+}
+
+p {
+    font-size: 14pt;
+    line-height: 2.5em;
+}
+
+.fullText {
+    position: absolute;
+    right: 1em;
+    color: #000;
+}
+
+.fullText:hover {
+    -moz-animation: spinnerRotate 1s infinite;
+    -webkit-animation: spinnerRotate 1s infinite;
+    animation: spinnerRotate 1s infinite;
+    color: #26c6da;
+}
+
+.timeReddit {
+    position: absolute;
+    right:5em;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+
+.timeReddit:hover {
+    color: #26c6da;
+}
+
+@-webkit-keyframes spinnerRotate
+{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes spinnerRotate
+{
+    from{-moz-transform:rotate(0deg);}
+    to{-moz-transform:rotate(360deg);}
+}
+@-ms-keyframes spinnerRotate
+{
+    from{-ms-transform:rotate(0deg);}
+    to{-ms-transform:rotate(360deg);}
+}
+
+.collection a.collection-item {
+    color:black;
+}
+
+@media(max-width:992px) {
+    .timeReddit {
+        position: relative;
+        right: auto;
+    }
+
+    .fullText {
+        position: absolute;
+        right: 0.5em;
+        color: #26a69a;
+    }
+}
+
+body {
+    background: #000;
+    color:white;
+}
+
+.parallax{
+    width:100%;
+    min-height:800px;
+    max-height:800px;
+    height: 800px;
+}
+
+.topHolder {
+    background-image: url('http://premiumcoding.com/wp-content/uploads/2014/02/space-background1.png');
+    z-index: -6;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.superBump {
+    height:800px;
+    width:100%;
+}
+
+.first {
+    background:url('../../public/images/temp1.png') no-repeat 20px 20px;
+    background-size: 20%;
+    z-index:-1;
+}
+
+.second {
+    background:url('https://unsplash.it/1980/1200/?random') no-repeat top;
+    background-size: cover;
+    z-index:-5;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.card-content {
+    color:#000;
+}
