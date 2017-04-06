@@ -19,7 +19,7 @@ export default class CharacterList extends Component {
         }, this);
         return (
             <div className="characterList">
-                <OwlCarousel slideSpeed={300} items={4} itemsTablet={[1125,4]} itemsMobile={[700,2]} stopOnHover={true} lazyLoad={true} autoPlay={true} singleItem={false}>
+                <OwlCarousel slideSpeed={300} items={6} itemsTablet={[1200,4]} itemsMobile={[700,2]} stopOnHover={true} lazyLoad={true} autoPlay={true} singleItem={false}>
                     {characterList}
                 </OwlCarousel>
             </div>

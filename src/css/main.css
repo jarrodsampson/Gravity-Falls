@@ -297,3 +297,20 @@ body {
 #sidenav-overlay {
     z-index: 996;
 }
+
+@media(min-width:1200px) {
+    .videoMain {
+        max-height: 670px;
+    }
+}
+
+@media(min-width:1500px) {
+    .videoMain {
+        max-height: 800px;
+    }
+
+    .moviesBg {
+        position:relative;
+        background-size:40%;
+    }
+}
