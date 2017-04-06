@@ -1,26 +1,32 @@
 [
   {
-    "image": "photo1.jpg",
+    "name": "Mabel",
+    "image": "mabel.png",
     "description": "Makin' It Rain"
   },
   {
-    "image": "photo2.jpg",
+    "name": "Dipper",
+    "image": "dipper.png",
     "description": "Music Video"
   },
   {
-    "image": "photo3.jpg",
+    "name": "Wendy",
+    "image": "wendy.png",
     "description": "Basketball Practice"
   },
   {
-    "image": "photo4.jpg",
+    "name": "Grunkle Stan",
+    "image": "stan.png",
     "description": "Bearstack!"
   },
   {
-    "image": "photo5.jpg",
+    "name": "Soos",
+    "image": "soos.png",
     "description": "Sunday Shopping"
   },
   {
-    "image": "photo6.jpg",
+    "name": "Lil' Gideon",
+    "image": "gideon.png",
     "description": "Can't Touch This!"
   }
 ]
