@@ -1,3 +1,7 @@
+body {
+    background:#000;
+}
+
 .side-nav {
     min-height: 1000px;
 }
@@ -16,12 +20,12 @@ nav .button-collapse {
 }
 
 nav .sideNav a.active {
-    background: rgba(38,166,154, 0.9);
+    background: rgba(76,175,80, 0.9);
     color:white;
 }
 
 nav .sideNav li a:hover {
-    background: rgba(38,166,154, 0.2);
+    background: rgba(76,175,80, 0.2);
     color:black;
 }
 
@@ -75,7 +79,7 @@ nav .brand-logo {
 }
 
 .brand-logo img {
-    width: 130px;
+    width: 110px;
     padding: 1px;
 }
 
@@ -171,7 +175,7 @@ body {
     color:white;
 }
 
-.parallax{
+.second{
     width:100%;
     min-height:800px;
     max-height:800px;
@@ -189,18 +193,20 @@ body {
 }
 
 .superBump {
-    height:800px;
+    height:740px;
     width:100%;
 }
 
 .first {
-    background:url('../../public/images/temp1.png') no-repeat 20px 20px;
-    background-size: 20%;
-    z-index:-1;
+    height:740px;
+    background:url('../../public/images/book.png') no-repeat 20px 20px;
+        background-size: 20%;
+        z-index: -4;
+        margin-top: 4em;
 }
 
 .second {
-    background:url('https://unsplash.it/1980/1200/?random') no-repeat top;
+    background:url('../../public/images/topPara1.png') no-repeat top;
     background-size: cover;
     z-index:-5;
     position:absolute;
@@ -210,4 +216,84 @@ body {
 
 .card-content {
     color:#000;
+}
+
+.summaryBg {
+        background:url('../../public/images/pig.png') no-repeat bottom left scroll;
+}
+
+.summaryBg .text {
+    background:rgba(0,0,0,0.5);
+    border-radius:10px;
+    padding:1em;
+    max-width:700px;
+    margin:auto;
+}
+
+.titleIt {
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    width:100%;
+    bottom: 0;
+    color: white;
+    height: 100px;
+    transition: .6s all;
+}
+
+.titleIt:hover {
+    background: rgba(0,0,0,0.5);
+    height: 200px;
+}
+
+.titleIt p {
+    padding-top: 0.5em;
+    transition: .6s all;
+}
+
+.titleIt p:hover {
+    font-size:20pt;
+}
+.communityBg {
+        position:relative;
+        background:url('../../public/images/book.png') no-repeat bottom right scroll;
+}
+
+.floatImageTop {
+    position: absolute;
+        top: 0;
+        left: 0;
+}
+
+.floatImageBottom {
+        position: absolute;
+        bottom: -5em;
+        right: 4em;
+}
+
+.floatImageBottom img {
+        max-width: 250px;
+}
+
+.collection a.collection-item {
+    background: rgba(255,255,255,0.9)
+}
+
+.collection a.collection-item:hover {
+    background: rgba(255,255,255,1)
+}
+
+.moviesBg {
+        position:relative;
+        background:url('../../public/images/nome.png') no-repeat top left scroll;
+        background-size:50%;
+}
+
+.movieList {
+    background:rgba(0,0,0,0.5);
+        border-radius:10px;
+        padding:2em !important;
+}
+
+#sidenav-overlay {
+    z-index: 996;
 }

@@ -101,7 +101,7 @@ var customScripts = {
     },
     intro: function () {
         $(".loader").delay(2000).fadeOut(1000);
-        $("#audio").delay(18000).animate({volume: 0}, 3000);
+        $("#audio").delay(37000).animate({volume: 0}, 3000);
         $(".button-collapse").sideNav();
     },
     swipeItBox: function () {
